@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Select</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../css/home select.css">
+    <link rel="stylesheet" href="../css/all.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="menu-bars">
+                <button type="button" style="background-color: white; border: white;"><i
+                        class="fas fa-bars fa-2x"></i></button>
+                <h1>Food Items</h1>
+                <span><i class="fas fa-search fa-2x"></i></span>
+            </div>
+            <div class="cart">
+                <h1>Cart</h1>
+                <span>
+                    <p>3</p>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="container">
+            <!-- sidebar -->
+            <div class="sidebar">
+                <a href="#"> <img src="../images/icon/fork.png"></a>
+                <a href="#"><img src="../images/icon/clipboard.png"></a>
+                <a href="#"> <img src="../images/icon/add.png"></a>
+            </div>
+
+            <!-- food items -->
+            <div class="food-items">
+                <div class="food-img">
+                    <figure class="figure">
+                        <img src="../images/food/jeremy-ricketts-6ZnhM-xBpos-unsplash.png">
+                        <h4>Expresso</h4>
+                        <p>Rp. 10.000</p>
+                    </figure>
+                    <figure class="figure">
+                        <img src="../images/food/bear.png">
+                        <span><img src="../images/icon/tick.png" alt=""></span>
+                        <h4>Coffe Latte</h4>
+                        <p>Rp. 15.000</p>
+                    </figure>
+                    <figure class="figure">
+                        <img src="../images/food/firdaus-roslan-pN769u0KHNA-unsplash.png">
+                        <h4>Cappucino</h4>
+                        <p>Rp. 5.000</p>
+                    </figure>
+                </div>
+                <div class="food-img">
+                    <figure class="figure">
+                        <img src="../images/food/redvelvet.png">
+                        <h4>Red Velvet Latte</h4>
+                        <p>Rp. 33.000</p>
+                    </figure>
+                    <figure class="figure">
+                        <img src="../images/food/chocorum.png">
+                        <h4>Choco Rhum</h4>
+                        <p>Rp. 38.000</p>
+                    </figure>
+                    <figure class="figure">
+                        <img src="../images/food/blackforest.png">
+                        <span><img src="../images/icon/tick.png" alt=""></span>
+                        <h4>Black Forest</h4>
+                        <p>Rp. 30.000</p>
+                    </figure>
+                </div>
+                <div class="food-img">
+                    <figure class="figure">
+                        <img src="../images/food/chickenkatsu.png">
+                        <h4>Chiken Katsu Dabu-dabu</h4>
+                        <p>Rp. 60.000</p>
+                    </figure>
+                    <figure class="figure">
+                        <img src="../images/food/salmon.png">
+                        <span><img src="../images/icon/tick.png" alt=""></span>
+                        <h4>Salmon Truffle</h4>
+                        <p>Rp. 60.000</p>
+                    </figure>
+                    <figure class="figure">
+                        <img src="../images/food/wiener.png">
+                        <h4>Wiener Schnitzel</h4>
+                        <p>Rp. 69.000</p>
+                    </figure>
+                </div>
+            </div>
+
+
+            <!-- cart items -->
+            <div class="cart-items">
+                <div class="item-cart">
+                    <img src="../images/food/bear_small.png" alt="">
+                    <div class="btn-cart">
+                        <h5>Coffe Latte</h5>
+                        <div class="btn-fix">
+                            <button type="button-qount" class="btn-qount"><i class="fas fa-minus"></i></button>
+                            <span class="qounter">1</span>
+                            <button type="button-qount" class="btn-qount"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <p>Rp.15.000</p>
+                </div>
+                <div class="item-cart">
+                    <img src="../images/food/blackforest_small (1).png" alt="">
+                    <div class="btn-cart">
+                        <h5>Blackforest</h5>
+                        <div class="btn-fix">
+                            <button type="button-qount" class="btn-qount"><i class="fas fa-minus"></i></button>
+                            <span class="qounter">1</span>
+                            <button type="button-qount" class="btn-qount"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <p>Rp.30.000</p>
+                </div>
+                <div class="item-cart">
+                    <img src="../images/food/salmon_small.png" alt="">
+                    <div class="btn-cart">
+                        <h5>Salmon Truffle</h5>
+                        <div class="btn-fix">
+                            <button type="button-qount" class="btn-qount"><i class="fas fa-minus"></i></button>
+                            <span class="qounter">1</span>
+                            <button type="button-qount" class="btn-qount"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <p>Rp.60.000</p>
+                </div>
+                <div class="total">
+                    <div class="tax">
+                        <h4>Total:</h4>
+                        <p>*Belum termasuk ppn</p>
+                    </div>
+                    <h4>Rp.105.000*</h4>
+                </div>
+                <div class="btn-submit">
+                    <a href="../html/Checkout.html"><button type="button" class="btn "
+                            style="background-color:#57cad5; color: white;">Checkout</button></a>
+                    <a href=""><button type="button" class="btn"
+                            style="background-color: #f24f8a; color: white;">Cancel</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
